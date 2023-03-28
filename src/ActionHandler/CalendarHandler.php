@@ -9,26 +9,26 @@
 namespace CommonGateway\PetStoreBundle\ActionHandler;
 
 use CommonGateway\CoreBundle\ActionHandler\ActionHandlerInterface;
-use CommonGateway\PetStoreBundle\Service\PetStoreService;
+use CommonGateway\PetStoreBundle\Service\CalendarService;
 
 
-class PetStoreHandler implements ActionHandlerInterface
+class CalendarHandler implements ActionHandlerInterface
 {
 
     /**
      * The pet store service used by the handler
      *
-     * @var PetStoreService
+     * @var CalendarService
      */
-    private PetStoreService $petStoreService;
+    private CalendarService $petStoreService;
 
 
     /**
      * The constructor
      *
-     * @param PetStoreService $petStoreService The pet store service
+     * @param CalendarService $petStoreService The pet store service
      */
-    public function __construct(PetStoreService $petStoreService)
+    public function __construct(CalendarService $petStoreService)
     {
         $this->petStoreService = $petStoreService;
 

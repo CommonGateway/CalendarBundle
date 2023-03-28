@@ -11,7 +11,7 @@ namespace CommonGateway\PetStoreBundle\Service;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 
-class PetStoreService
+class CalendarService
 {
 
     /**
@@ -64,7 +64,7 @@ class PetStoreService
         $this->data          = $data;
         $this->configuration = $configuration;
 
-        return ['response' => 'Hello. Your PetStoreBundle works'];
+        return ['response' => 'Hello. Your CalendarBundle works'];
 
     }//end petStoreHandler()
 

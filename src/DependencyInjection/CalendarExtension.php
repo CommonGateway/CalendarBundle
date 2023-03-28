@@ -16,7 +16,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 /**
  * This class adds depedency injection.
  */
-class PetStoreExtension extends Extension
+class CalendarExtension extends Extension
 {
 
 
